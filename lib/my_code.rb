@@ -3,7 +3,8 @@ def map_to_negativize(source_array)
   i = 0
   new_array = []
   while source_array.length < i do
-    new_array.push(source_array[i])
+    element = source_array[i] * -1
+    new_array.push(element)
   end
   return new_array
 end
