@@ -22,4 +22,5 @@ def map_to_double(source_array)
     new_array.push(element)
     i += 1
   end
+  return new_array
 end
